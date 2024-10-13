@@ -193,13 +193,13 @@ form label {
 */
 
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .logo {
-        width: 15vw; 
+        width: 20vw; 
     }
     
     .navegacao {
-        font-size: 1.5vw; 
+        font-size: 4vw; 
         margin-right: 3%;
     }
     
@@ -213,7 +213,7 @@ form label {
 
     }
 .login-popup{
-    height: 105%; 
+    height: 110%; 
 
 }
     .login-content {
@@ -223,7 +223,7 @@ form label {
 
 
     .login-content h2 {
-        font-size: 3vw; 
+        font-size: 3.5vw; 
     }
     
     .login-content input[type="email"],
@@ -235,7 +235,7 @@ form label {
     
     .login-content button { 
         padding: 0.8vw 3.2vw; 
-        font-size: 2.3vw; 
+        font-size: 2.6vw; 
     }
 
     
@@ -251,11 +251,17 @@ form label {
     }
     
     .login-content p {
+       margin-top: -4%;
         font-size: 2.1vw;
     }
 
     input::placeholder {
         font-size: 2vw;
+    }
+
+    .close{
+        font-size: 2.8vw;
+    padding: 0.5vw 1.2vw; 
     }
 }
 
@@ -263,5 +269,72 @@ form label {
     .logo {
       display: none;
     }
+
+    .navegacao {
+        position: absolute;
+        top: 10%;
+        left: 17%;
+        font-size: 1.5vw; 
+        margin-right: 3%;
+    }
     
+    .navegacao a {
+
+        font-size: 3.5vw; 
+    }
+    
+    .botaoheader {
+        font-size: 3.5vw;
+
+    }
+.login-popup{
+    height: 100%; 
+
+}
+    .login-content {
+        width: 58vw; 
+        font-size: 4vw; 
+    }
+
+
+    .login-content h2 {
+        font-size: 4.5vw; 
+    }
+    
+    .login-content input[type="email"],
+    .login-content input[type="password"] {
+    
+        font-size: 4.5vw; 
+    }
+    
+    
+    .login-content button { 
+        padding: 0.8vw 3.2vw; 
+        font-size: 3.2vw; 
+    }
+
+    
+    .login-content a {
+        font-size: 3vw; 
+    }
+    
+    .login-content a:hover {
+        text-decoration: underline;
+    }
+    form label {
+        font-size: 3vw; 
+    }
+    
+    .login-content p {
+        font-size: 3vw;
+    }
+
+    input::placeholder {
+        font-size: 3vw;
+    }
+    
+    .close{
+        font-size: 3vw;
+    padding: 0.7vw 1.5vw; 
+    }
 }
