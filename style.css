@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/autumn-forest-vibrant-painted-landscape-generated-by-ai.jpg);
+    background-image: url(img/floresta_fundo.jpg);
     background-attachment: fixed;
     background-size: cover;
     animation: fundomechendo 30s infinite linear;
@@ -40,8 +40,8 @@ body {
 .botaoheader {
     background-color: transparent;
     border: 0.2vw solid white; 
-    font-size: 1.2vw;
-    padding: 0.7vw 2.5vw; 
+    font-size: 1.5vw;
+    padding: 0.9vw 2.7vw; 
     color: #ffffff;
     border-radius: 0.5vw; 
     cursor: pointer;
@@ -51,7 +51,19 @@ body {
 .botaoheader:hover {
     background-color: #000000;
 }
+.bxs-envelope{
+    position: absolute;
+    top: 30%;
+    left: 88%;
+    font-size: 1.5vw;
+}
 
+.bxs-lock-alt{
+    position: absolute;
+    top: 49%;
+    left: 88%;
+    font-size: 1.5vw;
+}
 .login-popup {
     position: fixed;
     top: 0%;
@@ -207,6 +219,22 @@ form label {
     animation: fundomechendo 100s infinite linear;
 
     }
+
+
+    .bxs-envelope{
+        position: absolute;
+        top: 29%;
+        left: 88%;
+        font-size: 2.7vw;
+    }
+    
+    .bxs-lock-alt{
+        position: absolute;
+        top: 49%;
+        left: 88%;
+        font-size: 2.7vw;
+    }
+
     .logo {
         width: 23vw; 
     }
@@ -282,6 +310,21 @@ form label {
     body{
     animation: fundomechendo 150s infinite linear;
     }
+
+    .bxs-envelope{
+        position: absolute;
+        top: 31%;
+        left: 88%;
+        font-size: 4.3vw;
+    }
+    
+    .bxs-lock-alt{
+        position: absolute;
+        top: 48%;
+        left: 88%;
+        font-size: 4.3vw;
+    }
+
     .logo {
       display: none;
     }
