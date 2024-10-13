@@ -66,7 +66,9 @@ body {
 
 .login-content {
     position: relative;
-    background-color: white;
+    border: 2px solid white;
+background-color: white;
+box-shadow: 0 0 4px white;
     padding: 2vw; 
     border-radius: 1vw; 
     width: 29vw; 
@@ -239,8 +241,8 @@ form label {
     
     .login-content input[type="email"],
     .login-content input[type="password"] {
-    
-        font-size: 3vw; 
+    padding: 3%;
+        font-size: 2.5vw; 
     }
     
     
@@ -267,7 +269,7 @@ form label {
     }
 
     input::placeholder {
-        font-size: 2vw;
+        font-size: 2.1vw;
     }
 
     .close{
@@ -287,18 +289,18 @@ form label {
     .navegacao {
         position: absolute;
         top: 10%;
-        left: 6%;
+        left: 2%;
         font-size: 1.5vw; 
         margin-right: 3%;
     }
     
     .navegacao a {
 
-        font-size: 4.5vw; 
+        font-size: 5vw; 
     }
     
     .botaoheader {
-        font-size: 4.5vw;
+        font-size: 5vw;
 
     }
 .login-popup{
@@ -312,43 +314,43 @@ form label {
 
 
     .login-content h2 {
-        font-size: 7vw; 
+        font-size: 8vw; 
     }
     
     .login-content input[type="email"],
     .login-content input[type="password"] {
-    
-        font-size: 7vw; 
+        font-size: 4.5vw; 
+        padding: 2.5%;
     }
     
     
     .login-content button { 
-        padding: 1.3vw 4vw; 
-        font-size: 4.5vw; 
+        padding: 1.5vw 4.3vw; 
+        font-size: 4.9vw; 
     }
 
     
     .login-content a {
-        font-size: 4vw; 
+        font-size: 4.3vw; 
     }
     
     .login-content a:hover {
         text-decoration: underline;
     }
     form label {
-        font-size: 4vw; 
+        font-size: 4.3vw; 
     }
     
     .login-content p {
-        font-size: 4vw;
+        font-size: 4.3vw;
     }
 
     input::placeholder {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     
     .close{
-        font-size: 4vw;
-    padding: 1vw 2vw; 
+        font-size: 4.5vw;
+    padding: 1vw 2.5vw; 
     }
 }
