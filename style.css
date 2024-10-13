@@ -208,7 +208,7 @@ form label {
 
     }
     .logo {
-        width: 20vw; 
+        width: 23vw; 
     }
     
     .navegacao {
@@ -218,11 +218,11 @@ form label {
     
     .navegacao a {
 
-        font-size: 2vw; 
+        font-size: 3vw; 
     }
     
     .botaoheader {
-        font-size: 2vw;
+        font-size: 3vw;
 
     }
 .login-popup{
@@ -236,7 +236,7 @@ form label {
 
 
     .login-content h2 {
-        font-size: 3.5vw; 
+        font-size: 4.5vw; 
     }
     
     .login-content input[type="email"],
@@ -248,28 +248,28 @@ form label {
     
     .login-content button { 
         padding: 0.8vw 3.2vw; 
-        font-size: 2.6vw; 
+        font-size: 3vw; 
     }
 
     
     .login-content a {
-        font-size: 2.1vw; 
+        font-size: 2.5vw; 
     }
     
     .login-content a:hover {
         text-decoration: underline;
     }
     form label {
-        font-size: 2.1vw; 
+        font-size: 2.5vw; 
     }
     
     .login-content p {
        margin-top: -4%;
-        font-size: 2.1vw;
+        font-size: 2.5vw;
     }
 
     input::placeholder {
-        font-size: 2.1vw;
+        font-size: 2.5vw;
     }
 
     .close{
