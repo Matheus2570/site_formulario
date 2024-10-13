@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 
 body {
     padding: 0;
@@ -7,7 +7,7 @@ body {
     background-image: url(img/autumn-forest-vibrant-painted-landscape-generated-by-ai.jpg);
     background-attachment: fixed;
     background-size: cover;
-    animation: fundomechendo 120s infinite linear;
+    animation: fundomechendo 30s infinite linear;
     font-size: 1.2vw;
 }
 
@@ -193,7 +193,18 @@ form label {
 */
 
 
+@keyframes fundomechendo {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
+
+    body{
+    animation: fundomechendo 100s infinite linear;
+
+    }
     .logo {
         width: 20vw; 
     }
@@ -266,6 +277,9 @@ form label {
 }
 
 @media (max-width: 480px) {
+    body{
+    animation: fundomechendo 150s infinite linear;
+    }
     .logo {
       display: none;
     }
@@ -273,18 +287,18 @@ form label {
     .navegacao {
         position: absolute;
         top: 10%;
-        left: 17%;
+        left: 6%;
         font-size: 1.5vw; 
         margin-right: 3%;
     }
     
     .navegacao a {
 
-        font-size: 3.5vw; 
+        font-size: 4.5vw; 
     }
     
     .botaoheader {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
 
     }
 .login-popup{
@@ -292,49 +306,49 @@ form label {
 
 }
     .login-content {
-        width: 58vw; 
+        width: 80vw; 
         font-size: 4vw; 
     }
 
 
     .login-content h2 {
-        font-size: 4.5vw; 
+        font-size: 7vw; 
     }
     
     .login-content input[type="email"],
     .login-content input[type="password"] {
     
-        font-size: 4.5vw; 
+        font-size: 7vw; 
     }
     
     
     .login-content button { 
-        padding: 0.8vw 3.2vw; 
-        font-size: 3.2vw; 
+        padding: 1.3vw 4vw; 
+        font-size: 4.5vw; 
     }
 
     
     .login-content a {
-        font-size: 3vw; 
+        font-size: 4vw; 
     }
     
     .login-content a:hover {
         text-decoration: underline;
     }
     form label {
-        font-size: 3vw; 
+        font-size: 4vw; 
     }
     
     .login-content p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     input::placeholder {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     .close{
-        font-size: 3vw;
-    padding: 0.7vw 1.5vw; 
+        font-size: 4vw;
+    padding: 1vw 2vw; 
     }
 }
