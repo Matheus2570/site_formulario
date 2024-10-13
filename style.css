@@ -80,12 +80,17 @@ body {
 
 .login-content input[type="email"],
 .login-content input[type="password"] {
-    width: 80%;
+    width: 95%;
     padding: 0.8vw; 
     margin-top: 1.5vw; 
     border-radius: 0.5vw; 
     border: 2px solid #ccc; 
     font-size: 1.2vw; 
+}
+
+input::placeholder {
+    font-size: 1.2vw;
+    color: #aaa;
 }
 
 .aolado{
@@ -141,12 +146,13 @@ body {
 }
 
 form label {
-    font-size: 1.1vw; 
+    font-size: 1.2vw; 
 }
 
 .login-content p {
     font-size: 1.25vw;
 }
+
 
 /*
 .footer {
@@ -246,6 +252,10 @@ form label {
     
     .login-content p {
         font-size: 2.1vw;
+    }
+
+    input::placeholder {
+        font-size: 2vw;
     }
 }
 
