@@ -226,7 +226,7 @@ form label {
 
     }
 .login-popup{
-    height: 110%; 
+    height: 120%; 
 
 }
     .login-content {
@@ -319,7 +319,7 @@ form label {
     
     .login-content input[type="email"],
     .login-content input[type="password"] {
-        font-size: 3.5vw; 
+        font-size: 3.8vw; 
         padding: 3%;
     }
     
