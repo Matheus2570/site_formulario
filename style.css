@@ -319,8 +319,8 @@ form label {
     
     .login-content input[type="email"],
     .login-content input[type="password"] {
-        font-size: 4.5vw; 
-        padding: 2.5%;
+        font-size: 3.5vw; 
+        padding: 3%;
     }
     
     
