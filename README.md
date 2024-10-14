@@ -15,9 +15,9 @@ Este projeto é um site simples que apresenta um formulário interativo, desenvo
 - CSS3 para a estilização e layout;
 - JavaScript para a validação e interatividade.
 
-## Como Usar
+## Como ver
 
-1. Clone este repositório:
+1. Cole esse link no seu google:
    ```bash
    https://matheus2570.github.io/site_formulario/
 
