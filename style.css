@@ -10,7 +10,11 @@ body {
     animation: fundomechendo 80s infinite linear;
     font-size: 1.2vw;
 }
-
+#menuIcon {
+    display: none; 
+    font-size: 5vw;
+    cursor: pointer;
+}
 .header {
     display: flex;
     align-items: center;
@@ -20,7 +24,7 @@ body {
 .logo {
     margin-left: 2%;
     margin-top: 2%;
-    width: 13vw; 
+    width: 15vw; 
     height: auto;
     border-radius: 50%;
 }
@@ -168,13 +172,17 @@ form label {
 }
 
 
-/*
 .footer {
-    background-color: rgba(0, 0, 0, 0.788);
-    padding: 2% 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1% 0;
     color: #fff;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
+    z-index: 1; 
 }
 
 .footer .container {
@@ -200,11 +208,18 @@ form label {
 .footer_social a:hover {
     color: #e67e22; 
 }
+
 .footer_social p {
     font-size: 1.2em;
-   
 }
-*/
+
+/* Z-index maior para o popup */
+.login-popup {
+    z-index: 10;
+}
+
+
+
 
 
 @keyframes fundomechendo {
@@ -254,7 +269,7 @@ form label {
 
     }
 .login-popup{
-    height: 120%; 
+    height: 105%; 
 
 }
     .login-content {
@@ -304,6 +319,15 @@ form label {
         font-size: 2.8vw;
     padding: 0.5vw 1.2vw; 
     }
+  
+
+    .footer {
+    
+        font-size: 1.3em;
+    
+    }
+    
+    
 }
 
 @media (max-width: 480px) {
@@ -313,45 +337,63 @@ form label {
 
     .bxs-envelope{
         position: absolute;
-        top: 31%;
+        top: 32%;
         left: 88%;
         font-size: 4.3vw;
     }
     
     .bxs-lock-alt{
         position: absolute;
-        top: 48%;
+        top: 51%;
         left: 88%;
         font-size: 4.3vw;
     }
 
-    .logo {
-      display: none;
-    }
-
-    .navegacao {
-        position: absolute;
-        top: 10%;
-        left: 2%;
-        font-size: 1.5vw; 
-        margin-right: 3%;
-    }
+        .logo {
+        width: 43vw;
+        }
     
-    .navegacao a {
 
-        font-size: 5vw; 
-    }
+        #menuIcon {
+            font-size: 15vw;
+            color: white;
+            margin-right: 5%;
+            cursor: pointer;
+            display: block;
+        }
     
-    .botaoheader {
-        font-size: 5vw;
+        .navegacao {
+            display: none; 
+            flex-direction: column; 
+            background-color: rgba(0, 0, 0, 0.7); 
+            position: absolute;
+            top: 15%;
+            left: 38%;
+            width: 55%;
+            text-align: center;
+        }
+    
+        .navegacao a {
+            display: block;
+            padding: 10px;
+            font-size: 5vw;
+            color: white;
+        }
+    
+        .botaoheader {
+            font-size: 5vw;
+            padding: 2vw;
+        }
 
-    }
+    
 .login-popup{
-    height: 100%; 
+    height: 110%; 
 
 }
     .login-content {
-        width: 80vw; 
+        left: 2vw;
+        bottom: 2vw;
+        width: 83%; 
         font-size: 4vw; 
     }
 
@@ -370,6 +412,8 @@ form label {
     .login-content button { 
         padding: 1.5vw 4.3vw; 
         font-size: 4.9vw; 
+        width: 100%;
+        border-radius: 2vw;
     }
 
     
@@ -385,6 +429,7 @@ form label {
     }
     
     .login-content p {
+        margin-top: -1%;
         font-size: 4.3vw;
     }
 
@@ -394,6 +439,17 @@ form label {
     
     .close{
         font-size: 4.5vw;
-    padding: 1vw 2.5vw; 
+    padding: 1.5vw 3vw; 
+    border-radius: 2vw;
+
     }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+   .footer{
+    font-size: 2.2em;
+   }
+ 
 }
