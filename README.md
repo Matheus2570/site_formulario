@@ -19,6 +19,6 @@ Este projeto é um site simples que apresenta um formulário interativo, desenvo
 
 1. Clone este repositório:
    ```bash
-   https://matheus2570.github.io/site_formulario.github.io/
+   https://matheus2570.github.io/site_formulario/
 
 
