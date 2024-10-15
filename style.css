@@ -76,6 +76,10 @@ body {
     left: 88%;
     font-size: 1.5vw;
 }
+
+#loginPopup{
+    display: none;
+}
 .login-popup {
     position: fixed;
     top: 0%;
