@@ -15,7 +15,7 @@ Este projeto é um site simples que apresenta um formulário interativo, desenvo
 - CSS3 para a estilização e layout;
 - JavaScript para a validação e interatividade.
 
-## Como Ver
+## Como Vizualizar
 
 1. Cole esse link no seu Google:
    ```bash
