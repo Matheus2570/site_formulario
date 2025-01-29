@@ -33,7 +33,7 @@ document.addEventListener('click', function(event) {
     var menuIcon = document.getElementById("menuIcon");
     var larguraTela = window.innerWidth;
 
-    // Aplicar somente para celulares (largura máxima de 480px)
+    // Aplicar somente para celulares (largura máxima de 480px) 
     if (larguraTela <= 480) {
         // Fechar o menu ao clicar em qualquer link da navegação
         if (menuNav.contains(event.target)) {
