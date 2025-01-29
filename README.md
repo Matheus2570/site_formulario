@@ -9,13 +9,13 @@ Este projeto é um site simples que apresenta um formulário interativo, desenvo
 - Estilo responsivo, adaptando-se a diferentes tamanhos de tela;
 - Feedback visual para erros de preenchimento.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas ✅
 
 - HTML5 para a estrutura do site;
 - CSS3 para a estilização e layout;
 - JavaScript para a validação e interatividade.
 
-## Como Vizualizar
+## Como Visualizar 📌
 
 1. Cole esse link no seu Google:
    ```bash
